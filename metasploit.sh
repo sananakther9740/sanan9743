@@ -21,7 +21,7 @@ apt update && apt upgrade -y
 apt install -y ncurses-utils autoconf bison clang coreutils finch curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
 
 cd $msfpath
-curl -LO https://github.com/rapid7/metasploit-framework/archive/$msfvar.tar.gz
+curl -LO https://github.com/sananakther9740/metasploit-framework/archive/$msfvar.tar.gz
 tar -xf $msfpath/$msfvar.tar.gz
 mv $msfpath/metasploit-framework-$msfvar $msfpath/metasploit-framework
 cd $msfpath/metasploit-framework
@@ -47,7 +47,7 @@ fi
 if [ -e $PREFIX/bin/msfvenom ];then
 	rm $PREFIX/bin/msfvenom
 fi
-curl https://raw.githubusercontent.com/remo7777/REMO773/master/msfconsole | cat >> $PREFIX/bin/msfconsole
+curl https://raw.githubusercontent.com/sananakther9740/sanan9743/master/msfconsole | cat >> $PREFIX/bin/msfconsole
 chmod +rwx $PREFIX/bin/msfconsole
 ln -sf $(which msfconsole) $PREFIX/bin/msfvenom
 
