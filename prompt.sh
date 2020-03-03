@@ -1,4 +1,4 @@
-┌─[Remo773@termux]-[Mon Jul 09]-[11:13 AM]
+┌─[sanan9740@termux]-[wen march 04]-[12:02 AM]
 ├─[~]
 └─[$]
 git push with termux
